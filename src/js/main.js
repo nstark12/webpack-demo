@@ -21,7 +21,6 @@ function changeHeaderColor() {
   }
 }
 
-
 boxEl.style.backgroundColor = 'yellow'
 header.style.color = 'black'
 
