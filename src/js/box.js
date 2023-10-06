@@ -3,7 +3,7 @@ import { boxEl } from "./elements"
 import BlueRobotImage from '../images/blue-robot.png'
 import YellowRobotImage from '../images/yellow-robot.png'
 
-export function changeBoxColor() {
+export const changeBoxColor = () => {
   if (boxEl.dataset.color === 'yellow') {
     boxEl.src = BlueRobotImage
     boxEl.dataset.color = 'blue'
